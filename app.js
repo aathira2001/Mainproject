@@ -1,8 +1,7 @@
 /* pending...module.exports = function(app) {
 
-*Api function can n't be fixed
 *frond-end integration is pending
-*DB id matching is pending
+
 */
 
 var createError = require('http-errors');
