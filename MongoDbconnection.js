@@ -19,11 +19,44 @@ module.exports.connect=function(done){
 // `mongodb+srv://${username}:${password}@${cluster}.pbhc9.azure.mongodb.net/?retryWrites=true&w=majority`/*it is take from the atlas db*/ //occures some error
 //  mongoose.connect(`mongodb+srv://vacctrac:aasj%402023@cluster0.pbhc9.azure.mongodb.net/test`) //occures some error
 
+ 
    
     const url='mongodb+srv://vacctrac:aasj%402023@cluster0.pbhc9.azure.mongodb.net/test';
         
       console.log(done)//done as call back...
+     
+        try{
+            //security  start
+            /*In complete...... and getting some logical error*/
+            (api)=>{
+                if(!MongoClient){
+                 console.log("Internet connection error(Team vacctrac please make sure your internet connection)") ;
+                }
+                else
+                {
+                    const client = new MongoClient(uri, {
+                           useNewUrlParser: true,
+                    useUnifiedTopology: true,
+                             });
+                   await client.connect();
+    const encryption = new ClientEncryption(client, {
+    keyVaultNamespace,
+        kmsProviders,
         
+});
+const key = await encryption.createDataKey(provider, {
+  masterKey: masterKey,
+});
+console.log("DataKeyId [base64]: ", key.toString("base64"));
+await keyVaultClient.close();
+await client.close();
+                    
+                }
+                
+                
+            }
+        }
+    //security line end
     
 const dbname='vacctrac';
  
