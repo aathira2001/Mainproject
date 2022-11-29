@@ -3,7 +3,7 @@ const { application } = require('express');
 // const mongoose=require('mongoose');
 const MongoClient = require('mongodb').MongoClient;
 // var username='vacctrac';
-// var password='aasj@2023';
+// var password='*********';
 // var cluster='cluster0';
 
 const state={
@@ -40,6 +40,7 @@ MongoClient.connect(url,(err,data) => {
 }
 
 //module is exported as a function which takes a callback function as a parameter done as a call back function
+//Get and post are api
 module.exports.get=function(){
     return state.db
 }
