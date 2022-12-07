@@ -1,5 +1,6 @@
-//author:Akhil
+//author:Akhil,time:12:10
 //Session creation is pending and front-end integration is pending
+//used in promise:handle multiple async function
 const bcrypt=require('bcrypt');
 
 
