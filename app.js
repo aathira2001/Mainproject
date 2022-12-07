@@ -1,6 +1,7 @@
 /* pending...module.exports = function(app) {
 
-*frond-end integration is pending
+*Api function can n't be fixed
+*frond-end integration is pending.....
 
 */
 
@@ -16,7 +17,7 @@ var db=require('./dbconnector/connection');//this is the connection file
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
-var app = express();
+var app= express();
  
 app.set('views', path.join(__dirname, 'views'));
 // //hbs created by express-generator
@@ -34,7 +35,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 db.connect((err)=>{
   if(err)
-  console.log('\n unable to connect to databas:)'+err);//if error in connection
+  console.log('\n unable to connect to database(Team vacctrac please check your internet connection is proper or not):)');//if error in connection
   else
   console.log('connected to db(team vacctrac ready to go:)');//if connection is established
 })
