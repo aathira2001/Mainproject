@@ -2,13 +2,14 @@
 
 *Api function can n't be fixed
 *frond-end integration is pending.....
+*sendgrid configuration is pending 
 
 */
 
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
-var cookieParser = require('cookie-parser');
+var cookieParser = require('cookie-parser');//setting cookie-parser
 var logger = require('morgan');
 var db=require('./dbconnector/connection');//this is the connection file
 // const axios = require('axios');
@@ -19,20 +20,48 @@ var usersRouter = require('./routes/users');
 
 var app= express();
  
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'index.html'));//may be fetch some errors bcz the html path is not set
+
+  var cookie=function(req,res,next){
+   
+    next(create Error())
+  secret: '@1akgd'//got an access from the session
+   (callback)=>{
+   //pending.........
+   
+   
+   res.cookie-parser;
+   
+   
+  }
+    next.close();
+    
+    
+    
+   
+}
+  /*cookie session start*/
+  let cookie=function(req,res,next)
+  {
+   next(req.cookie)
+   return;
+   
+   
+  }
+  
+  /*cookie session end...*/
 // //hbs created by express-generator
-app.set('view engine', 'hbs');
+//app.set('view engine', 'hbs');
 // app.set('view engine', 'react');
 
 
-/*New connection creating for reactjs"Axios"*/
-// axios.get('http://localhost:3001/')
+
 
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'index.html')));
 db.connect((err)=>{
   if(err)
   console.log('\n unable to connect to database(Team vacctrac please check your internet connection is proper or not):)');//if error in connection
