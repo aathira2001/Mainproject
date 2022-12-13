@@ -17,8 +17,8 @@ const state={
 //done (working) as a call back function is called when the connection is established
 module.exports.connect=function(done){
 // `mongodb+srv://${username}:${password}@${cluster}.pbhc9.azure.mongodb.net/?retryWrites=true&w=majority`/*it is take from the atlas db*/
-//  mongoose.connect(`mongodb+srv://vacctrac:aasj%402023@cluster0.pbhc9.azure.mongodb.net/test`)
-const url='mongodb+srv://vacctrac:aasj%402023@cluster0.pbhc9.azure.mongodb.net/test';
+//  mongoose.connect(`mongodb+srv://vacctrac:000000000@cluster0.pbhc9.azure.mongodb.net/test`)
+const url='mongodb+srv://vacctrac:00000000000@cluster0.pbhc9.azure.mongodb.net/test';
 
     
     
