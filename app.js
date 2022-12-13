@@ -22,32 +22,32 @@ var app= express();
  
 app.set('views', path.join(__dirname, 'index.html'));//may be fetch some errors bcz the html path is not set
 
-  var cookie=function(req,res,next){
+//   var cookie=function(req,res,next){
    
-    next(create Error())
-  secret: '@1akgd'//got an access from the session
-   (callback)=>{
-   //pending.........
-   
-   
-   res.cookie-parser;
+//     next(create Error())
+//   secret: '@1akgd'//got an access from the session
+//    (callback)=>{
+//    //pending.........
    
    
-  }
-    next.close();
+//    res.cookie-parser;
+   
+   
+//   }
+//     next.close();
     
     
     
    
-}
-  /*cookie session start*/
-  let cookie=function(req,res,next)
-  {
-   next(req.cookie)
-   return;
+// }
+//   /*cookie session start*/
+//   let cookie=function(req,res,next)
+//   {
+//    next(req.cookie)
+//    return;
    
    
-  }
+//   }
   
   /*cookie session end...*/
 // //hbs created by express-generator
