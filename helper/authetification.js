@@ -40,7 +40,21 @@ module.exports={
                 resolve({status:false})
             }
         })
-    }
+    },
+    /*Insertion from the box session start*/
+     Boxinsert:(userData)=>{
+        return new Promise(async(resolve,reject)=>{
+            let loginstatus=false;
+            let response={}
+            dbs.get().collection(collection.BOX_COLLECTION).insertMany(userData).then((data)=>{
+                resolve(data)
+                console.log('inserted successfully!')
+            })
+    
+    
+        })
+    /*Insertion session end*/
+}
 
 
 }
