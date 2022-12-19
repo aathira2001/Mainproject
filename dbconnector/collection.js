@@ -1,5 +1,6 @@
 module.exports={
-    USER_COLLECTION:'user'
+    USER_COLLECTION:'user',
+    BOX_COLLECTION:'box'
 
 
 
