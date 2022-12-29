@@ -2,7 +2,7 @@
 /* pending...module.exports = function(app) {
 *(Api function can n't be fixed)...fixing completed...
 *front-end integration is pending.....front-end rendering is completed
-*sendgrid configuration is pending..//only jerickson now ☺
+*sendgrid configuration is pending..//only jerickson know ☺
 *Twillio configuration is pending// for otp verfication
 *session and cookie is pending that is better to attach final time integration....Already i will provide the paths line no.13
 *Db connection is set
