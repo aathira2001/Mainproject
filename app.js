@@ -1,14 +1,17 @@
 /*Author:Akhil*/
 /* pending...module.exports = function(app) {
-*Api function can n't be fixed
-*frond-end integration is pending.....
-*sendgrid configuration is pending 
+*(Api function can n't be fixed)...fixing completed...
+*front-end integration is pending.....front-end rendering is completed
+*sendgrid configuration is pending..//only jerickson now ☺
+*Twillio configuration is pending// for otp verfication
+*session and cookie is pending that is better to attach final time integration....Already i will provide the paths line no.13
+*Db connection is set
 */
 
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
-var cookieParser = require('cookie-parser');//setting cookie-parser
+var cookieParser = require('cookie-parser');//setting cookie-parser:pending
 var logger = require('morgan');
 var db=require('./dbconnector/connection');//this is the connection file
 // const axios = require('axios');
