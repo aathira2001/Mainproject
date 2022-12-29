@@ -28,6 +28,7 @@ var app= express();
 
 
 /*Html rendering start*/
+/*Error was fixed time at 12:05,29-12-2022*/
 /**Error: Failed to lookup view "error" in views directory "C:\Users\VICTUS\Desktop\Hdd backup\main project\public\index"
     at Function.render (C:\Users\VICTUS\Desktop\Hdd backup\main project\node_modules\express\lib\application.js:597:17)
     at ServerResponse.render (C:\Users\VICTUS\Desktop\Hdd backup\main project\node_modules\express\lib\response.js:1039:7)
