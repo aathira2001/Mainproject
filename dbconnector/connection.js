@@ -1,4 +1,5 @@
-/*Database connection=>Main point*/
+/**Database connection=>Main point
+  *Test is pending...*/
 const { application } = require('express');
 //const passport = require('passport');
 // const mongoose=require('mongoose');
