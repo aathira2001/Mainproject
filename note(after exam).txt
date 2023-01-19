@@ -1,0 +1,2 @@
+Updates necessitated some extensions that expired and quick database configuration changes after the exam. 
+Additionally, locate the blockchain configuration npm requirement: to update the connection.
