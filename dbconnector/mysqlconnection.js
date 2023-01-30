@@ -16,3 +16,4 @@ connection.connect(function(err){
     
 })
 }
+module.export.router
