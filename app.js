@@ -6,6 +6,7 @@
 *Twillio configuration is pending// for otp verfication
 *session and cookie is pending that is better to attach final time integration....Already i will provide the paths line no.13
 *Db connection is set
+*Html rendering action needed
 */
 
 var createError = require('http-errors');
