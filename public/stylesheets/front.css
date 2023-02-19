@@ -1,0 +1,84 @@
+
+*{
+background-color: #0D5953;
+background-size:cover;
+width: fit-content;
+height: fit-content;
+
+}
+
+form {
+    margin-top: 250px;
+    margin-left: 250px;
+    color: #fff;
+}
+
+.form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+/* Add some margins for each label */
+.form-inline label {
+    margin: 5px 10px 5px 0px;
+}
+
+/* Style the input fields */
+.form-inline input {
+    width: calc(100% /2 -20px);
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    /* opacity: 2%; */
+    border: 1px solid #ddd;
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+/* .table goback{
+    float: right;
+  } */
+
+/* .form-inline button {
+    float: right;
+    margin-top: -200px;
+    background-color: #0D5953;
+    color: white;
+    height: 25px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 12px;
+  } */
+
+.btn1 {
+    float: right;
+    margin-top: -200px;
+    background-color: #0D5953;
+    color: white;
+    height: 25px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+
+.b {
+    font: 200;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn2 {
+    float: right;
+    margin-bottom: 2px;
+    margin-right: 800px;
+    background-color: #0D5953;
+    color: white;
+    height: 26px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 12px;
+
+}
+#table{
+    border-collapse: separate;
+    border-spacing: 15px;
+}
